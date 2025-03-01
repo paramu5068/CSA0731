@@ -1,0 +1,7 @@
+Switch1> enable
+Switch1# configure terminal
+Switch1(config)# interface vlan 1
+Switch1(config-if)# ip address 192.168.1.1 255.255.255.0
+Switch1(config-if)# no shutdown
+Switch1(config-if)# exit
+Switch1(config)# exit
