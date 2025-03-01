@@ -1,0 +1,5 @@
+Router(config-if)# ip address <IP> <subnet mask>
+Router(config-if)# no shutdown
+Router# show ip interface brief
+Router# show ip interface <interface>
+Router# write memory
