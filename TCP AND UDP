@@ -1,0 +1,9 @@
+ip tcp keepalive <seconds>
+show tcp brief
+	ip nat translation timeout udp <seconds>
+show udp
+telnet <remote_ip> <port_number>
+udp-echo <remote_ip> <port>
+ip tcp synwait-time <seconds>
+show ip sockets
+show interfaces <interface>
